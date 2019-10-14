@@ -316,9 +316,7 @@ def backup():
     else: # mysql_connection_test()
         print("Database not reacheable. If you have not been notified by your personal BOT a primitive tool called log shall be checked for more information.")
 
-backup()
-
-""" if __name__ == "__main__":
+if __name__ == "__main__":
 
     # scheduler object
     scheduler = BlockingScheduler()
@@ -331,6 +329,6 @@ backup()
     try:
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):
-        pass """
+        pass
 
 
