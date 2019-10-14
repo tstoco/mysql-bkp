@@ -320,7 +320,7 @@ if __name__ == "__main__":
 
     # scheduler object
     scheduler = BlockingScheduler()
-    # executing a measure every 60 seconds
+    # execute a backup everyday at 1AM
     scheduler.add_job(backup, 'cron', hour=1, minute=0)
     # to exit the app
     print('MySQL Auto-Backup tool is running.')
@@ -330,7 +330,4 @@ if __name__ == "__main__":
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):
         pass
-
-##### END
-
 
