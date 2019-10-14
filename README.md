@@ -9,7 +9,7 @@ This tool is a cross platform python script to create incremental MySQL backups.
 
 ### Settings
 
-A few settings shoul be changed in the source code before running the script :
+A few settings should be changed in the source code before running the script :
 
 
 |                |line|main.py|
