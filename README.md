@@ -5,11 +5,11 @@ This tool is a cross platform python script to create incremental MySQL backups.
 # Requirements
 
 - Python3.3+
+- MySQL
 
 ### Settings
 
-You can create a tmux session in linux or run in the windows terminal.
-Before running the script a few values should be changed in the source code :
+A few settings shoul be changed in the source code before running the script :
 
 
 |                |line|main.py|
@@ -27,7 +27,8 @@ Edit this file to reflect your database requirements.
 
 ### General Recommendations
 Make sure to allow read,write and execute just to the user which will run the script otherwise the passwords on the files can be easily read by other users. 
-A best practice would be to encrypt the external media the backup is being copied to because the script does not deal with any kind of encryption on the backups.
+A best practice would be to encrypt the external media the backup is being copied to because the script does not deal with any kind of encryption on the backups. 
+You can create a tmux session in linux or run in the windows terminal.
 
 
 ## How to use
